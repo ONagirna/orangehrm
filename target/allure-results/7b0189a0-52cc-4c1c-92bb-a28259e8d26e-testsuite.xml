@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1497030458936" stop="1497030511860" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Smoke : UI tests: Authentication</name>
+    <title>Smoke : UI tests: Authentication</title>
+    <test-cases>
+        <test-case start="1497030459035" stop="1497030466589" status="passed">
+            <name>testUserIsAbleToLogin[User [username=Admin, password=admin, name=Admin]]</name>
+            <steps>
+                <step start="1497030459058" stop="1497030463779" status="passed">
+                    <name>openLoginPage</name>
+                    <title>Open Home Page by URL: http://opensource.demo.orangehrmlive.com//</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030463780" stop="1497030466197" status="passed">
+                    <name>loginAs[User [username=Admin, password=admin, name=Admin]]</name>
+                    <title>Login as &lt;User [username=Admin, password=admin, name=Admin]&gt;</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1497030463781" stop="1497030463859" status="passed">
+                            <name>fillUsernameField[Admin]</name>
+                            <title>Fill Username Field with value &lt;Admin&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030463860" stop="1497030463919" status="passed">
+                            <name>fillPasswordField[admin]</name>
+                            <title>Fill Password Field with value &lt;admin&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030463920" stop="1497030466182" status="passed">
+                            <name>clickLoginButton</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1497030466199" stop="1497030466418" status="passed">
+                    <name>getGreetingMessage</name>
+                    <title>Read Greeting message</title>
+                    <attachments>
+                        <attachment title="Message" source="c5f7c91f-5358-43d0-b09c-6dcb5e419061-attachment.txt" type="text/plain"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot" source="3b9e8d9e-b82d-4825-8f07-943945356fc4-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Smoke"/>
+                <label name="testGroup" value="UI tests: Authentication"/>
+                <label name="testClass" value="com.orange.test.LoginTest"/>
+                <label name="testMethod" value="testUserIsAbleToLogin"/>
+                <label name="story" value="Login as different types of users "/>
+                <label name="feature" value="Login into system"/>
+                <label name="host" value="ONagirna"/>
+                <label name="thread" value="16260@ONagirna.TestNG(14)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497030467466" stop="1497030472387" status="passed">
+            <name>testUserIsAbleToLogin[User [username=fiona.grace, password=fiona.grace, name=Fiona]]</name>
+            <steps>
+                <step start="1497030466592" stop="1497030467465" status="passed">
+                    <name>close</name>
+                    <title>Close Browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030467468" stop="1497030470759" status="passed">
+                    <name>openLoginPage</name>
+                    <title>Open Home Page by URL: http://opensource.demo.orangehrmlive.com//</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030470761" stop="1497030472157" status="passed">
+                    <name>loginAs[User [username=fiona.grace, password=fiona.grace, name=Fiona]]</name>
+                    <title>Login as &lt;User [username=fiona.grace, password=fiona.grace, name=Fiona]&gt;</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1497030470762" stop="1497030470873" status="passed">
+                            <name>fillUsernameField[fiona.grace]</name>
+                            <title>Fill Username Field with value &lt;fiona.grace&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030470873" stop="1497030470947" status="passed">
+                            <name>fillPasswordField[fiona.grace]</name>
+                            <title>Fill Password Field with value &lt;fiona.grace&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030470947" stop="1497030472157" status="passed">
+                            <name>clickLoginButton</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1497030472158" stop="1497030472224" status="passed">
+                    <name>getGreetingMessage</name>
+                    <title>Read Greeting message</title>
+                    <attachments>
+                        <attachment title="Message" source="70c42f57-ec1f-49b9-bf85-be56e535a35a-attachment.txt" type="text/plain"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot" source="0ca691f6-4fce-4cae-a781-b0335bcfd1ae-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Smoke"/>
+                <label name="testGroup" value="UI tests: Authentication"/>
+                <label name="testClass" value="com.orange.test.LoginTest"/>
+                <label name="testMethod" value="testUserIsAbleToLogin"/>
+                <label name="story" value="Login as different types of users "/>
+                <label name="feature" value="Login into system"/>
+                <label name="host" value="ONagirna"/>
+                <label name="thread" value="16260@ONagirna.TestNG(14)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497030473111" stop="1497030478021" status="passed">
+            <name>testUserIsAbleToLogin[User [username=hannah.flores, password=hannah.flores, name=Hannah]]</name>
+            <steps>
+                <step start="1497030472388" stop="1497030473110" status="passed">
+                    <name>close</name>
+                    <title>Close Browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030473112" stop="1497030476362" status="passed">
+                    <name>openLoginPage</name>
+                    <title>Open Home Page by URL: http://opensource.demo.orangehrmlive.com//</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030476367" stop="1497030477791" status="passed">
+                    <name>loginAs[User [username=hannah.flores, password=hannah.flores, name=Hannah]]</name>
+                    <title>Login as &lt;User [username=hannah.flores, password=hannah.flores, name=Hannah]&gt;</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1497030476369" stop="1497030476466" status="passed">
+                            <name>fillUsernameField[hannah.flores]</name>
+                            <title>Fill Username Field with value &lt;hannah.flores&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030476466" stop="1497030476547" status="passed">
+                            <name>fillPasswordField[hannah.flores]</name>
+                            <title>Fill Password Field with value &lt;hannah.flores&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030476547" stop="1497030477791" status="passed">
+                            <name>clickLoginButton</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1497030477792" stop="1497030477878" status="passed">
+                    <name>getGreetingMessage</name>
+                    <title>Read Greeting message</title>
+                    <attachments>
+                        <attachment title="Message" source="13e7a394-a97a-4d7c-a79a-ea82765be1cc-attachment.txt" type="text/plain"/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot" source="5e6ba014-b35f-4d17-9513-4608efd08e1a-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Smoke"/>
+                <label name="testGroup" value="UI tests: Authentication"/>
+                <label name="testClass" value="com.orange.test.LoginTest"/>
+                <label name="testMethod" value="testUserIsAbleToLogin"/>
+                <label name="story" value="Login as different types of users "/>
+                <label name="feature" value="Login into system"/>
+                <label name="host" value="ONagirna"/>
+                <label name="thread" value="16260@ONagirna.TestNG(14)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497030484535" stop="1497030489721" status="passed">
+            <name>testAdminOpenSystemUsersPage</name>
+            <steps>
+                <step start="1497030478022" stop="1497030478795" status="passed">
+                    <name>close</name>
+                    <title>Close Browser</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030478797" stop="1497030482094" status="passed">
+                    <name>openLoginPage</name>
+                    <title>Open Home Page by URL: http://opensource.demo.orangehrmlive.com//</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030482095" stop="1497030484533" status="passed">
+                    <name>loginAs[User [username=Admin, password=admin, name=Admin]]</name>
+                    <title>Login as &lt;User [username=Admin, password=admin, name=Admin]&gt;</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1497030482095" stop="1497030482183" status="passed">
+                            <name>fillUsernameField[Admin]</name>
+                            <title>Fill Username Field with value &lt;Admin&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030482183" stop="1497030482242" status="passed">
+                            <name>fillPasswordField[admin]</name>
+                            <title>Fill Password Field with value &lt;admin&gt;</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030482242" stop="1497030484533" status="passed">
+                            <name>clickLoginButton</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1497030484536" stop="1497030484622" status="passed">
+                    <name>hoverAdminTab</name>
+                    <title>Hover the Admin tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030484622" stop="1497030486713" status="passed">
+                    <name>hoverUserManagementTab</name>
+                    <title>Hover the User Management tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030486714" stop="1497030489534" status="passed">
+                    <name>clickUsersTab</name>
+                    <title>Click on the Users subtab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot" source="1f64160e-b32f-46b4-ab7f-879278d45de5-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Smoke"/>
+                <label name="testGroup" value="UI tests: Authentication"/>
+                <label name="testClass" value="com.orange.test.AdminUserManagementTest"/>
+                <label name="testMethod" value="testAdminOpenSystemUsersPage"/>
+                <label name="story" value="Ability to add new user by admin"/>
+                <label name="feature" value="User management by admin"/>
+                <label name="host" value="ONagirna"/>
+                <label name="thread" value="16260@ONagirna.TestNG(14)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497030489723" stop="1497030492406" status="passed">
+            <name>testOpenAddUserForm</name>
+            <steps>
+                <step start="1497030489723" stop="1497030492255" status="passed">
+                    <name>clickAddButton</name>
+                    <title>Click on Add button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot" source="236f40fe-786e-4bd4-9eef-7f080c7ae291-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Smoke"/>
+                <label name="testGroup" value="UI tests: Authentication"/>
+                <label name="testClass" value="com.orange.test.AdminUserManagementTest"/>
+                <label name="testMethod" value="testOpenAddUserForm"/>
+                <label name="story" value="Ability to add new user by admin"/>
+                <label name="feature" value="User management by admin"/>
+                <label name="host" value="ONagirna"/>
+                <label name="thread" value="16260@ONagirna.TestNG(14)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497030492408" stop="1497030495024" status="passed">
+            <name>testFillInUserForm</name>
+            <steps>
+                <step start="1497030492409" stop="1497030492823" status="passed">
+                    <name>addNewOrdinaryUser[com.orange.data.NewUser@3bd3acf8]</name>
+                    <title>Add new ordinary user to the system</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030492824" stop="1497030494893" status="passed">
+                    <name>isUsersTableDisplayed</name>
+                    <title>Verify that the table with users is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot" source="f3e04ce1-cdb8-4661-9476-7c1a6a923b14-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Smoke"/>
+                <label name="testGroup" value="UI tests: Authentication"/>
+                <label name="testClass" value="com.orange.test.AdminUserManagementTest"/>
+                <label name="testMethod" value="testFillInUserForm"/>
+                <label name="story" value="Ability to add new user by admin"/>
+                <label name="feature" value="User management by admin"/>
+                <label name="host" value="ONagirna"/>
+                <label name="thread" value="16260@ONagirna.TestNG(14)"/>
+            </labels>
+        </test-case>
+        <test-case start="1497030495025" stop="1497030511071" status="passed">
+            <name>testUserDeletionFromList</name>
+            <steps>
+                <step start="1497030495026" stop="1497030503838" status="passed">
+                    <name>deleteUserFromList</name>
+                    <title>Delete the selected user from the table list</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1497030495026" stop="1497030497510" status="passed">
+                            <name>findNewUserInTable</name>
+                            <title>Find new added user in the table</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030497511" stop="1497030499588" status="passed">
+                            <name>isOddItemNumberDisplayed</name>
+                            <title>Verify that the user is found</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030499589" stop="1497030501695" status="passed">
+                            <name>clickOnUserCheckbox</name>
+                            <title>Click on user checkbox to select the user</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1497030501696" stop="1497030503838" status="passed">
+                            <name>clickOnDeleteButton</name>
+                            <title>Click on Delete button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1497030503839" stop="1497030508428" status="passed">
+                    <name>confirmUserDeletion</name>
+                    <title>Confirm user deletion on the popup</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030508428" stop="1497030510879" status="passed">
+                    <name>findNewUserInTable</name>
+                    <title>Find new added user in the table</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1497030510880" stop="1497030510901" status="passed">
+                    <name>verifyUserWasDeleted</name>
+                    <title>Verify that user was deleted successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot" source="112dae77-ac2a-4cbb-bbed-9e67b6b789ad-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Smoke"/>
+                <label name="testGroup" value="UI tests: Authentication"/>
+                <label name="testClass" value="com.orange.test.AdminUserManagementTest"/>
+                <label name="testMethod" value="testUserDeletionFromList"/>
+                <label name="story" value="Ability to add new user by admin"/>
+                <label name="feature" value="User management by admin"/>
+                <label name="host" value="ONagirna"/>
+                <label name="thread" value="16260@ONagirna.TestNG(14)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

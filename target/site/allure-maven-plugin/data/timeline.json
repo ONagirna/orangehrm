@@ -1,0 +1,86 @@
+{
+  "hosts" : [ {
+    "title" : "ONagirna",
+    "threads" : [ {
+      "title" : "16260@ONagirna.TestNG(14)",
+      "testCases" : [ {
+        "uid" : "b0558afc051f71cc",
+        "name" : "testUserIsAbleToLogin[User [username=Admin, password=admin, name=Admin]]",
+        "title" : "Test user is able to login [User [username=Admin, password=admin, name=Admin]]",
+        "time" : {
+          "start" : 1497030459035,
+          "stop" : 1497030466589,
+          "duration" : 7554
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f6def907446ce6ac",
+        "name" : "testUserIsAbleToLogin[User [username=fiona.grace, password=fiona.grace, name=Fiona]]",
+        "title" : "Test user is able to login [User [username=fiona.grace, password=fiona.grace, name=Fiona]]",
+        "time" : {
+          "start" : 1497030467466,
+          "stop" : 1497030472387,
+          "duration" : 4921
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7fc05e997aae5576",
+        "name" : "testUserIsAbleToLogin[User [username=hannah.flores, password=hannah.flores, name=Hannah]]",
+        "title" : "Test user is able to login [User [username=hannah.flores, password=hannah.flores, name=Hannah]]",
+        "time" : {
+          "start" : 1497030473111,
+          "stop" : 1497030478021,
+          "duration" : 4910
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b97f60bb65bba37d",
+        "name" : "testAdminOpenSystemUsersPage",
+        "title" : "Test admin open system users page",
+        "time" : {
+          "start" : 1497030484535,
+          "stop" : 1497030489721,
+          "duration" : 5186
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d5b389fb19ae0a55",
+        "name" : "testOpenAddUserForm",
+        "title" : "Test open add user form",
+        "time" : {
+          "start" : 1497030489723,
+          "stop" : 1497030492406,
+          "duration" : 2683
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f87f9148eae8b7d7",
+        "name" : "testFillInUserForm",
+        "title" : "Test fill in user form",
+        "time" : {
+          "start" : 1497030492408,
+          "stop" : 1497030495024,
+          "duration" : 2616
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "96b61ab2d8174e07",
+        "name" : "testUserDeletionFromList",
+        "title" : "Test user deletion from list",
+        "time" : {
+          "start" : 1497030495025,
+          "stop" : 1497030511071,
+          "duration" : 16046
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

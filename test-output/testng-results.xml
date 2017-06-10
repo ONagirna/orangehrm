@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37178" started-at="2017-06-09T17:38:39Z" finished-at="2017-06-09T17:39:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37178" started-at="2017-06-09T17:38:39Z" finished-at="2017-06-09T17:39:16Z">
+      <class name="com.orange.test.AdminUserManagementTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orange.test.AdminUserManagementTest@44ed0a8f]" name="setup" is-config="true" duration-ms="6066" started-at="2017-06-09T20:38:39Z" finished-at="2017-06-09T20:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testAdminOpenSystemUsersPage()[pri:0, instance:com.orange.test.AdminUserManagementTest@44ed0a8f]" name="testAdminOpenSystemUsersPage" duration-ms="6134" started-at="2017-06-09T20:38:45Z" finished-at="2017-06-09T20:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminOpenSystemUsersPage -->
+        <test-method status="PASS" signature="testOpenAddUserForm()[pri:0, instance:com.orange.test.AdminUserManagementTest@44ed0a8f]" name="testOpenAddUserForm" duration-ms="2599" started-at="2017-06-09T20:38:51Z" depends-on-methods="com.orange.test.AdminUserManagementTest.testAdminOpenSystemUsersPage" finished-at="2017-06-09T20:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenAddUserForm -->
+        <test-method status="PASS" signature="testFillInUserForm()[pri:0, instance:com.orange.test.AdminUserManagementTest@44ed0a8f]" name="testFillInUserForm" duration-ms="2445" started-at="2017-06-09T20:38:54Z" depends-on-methods="com.orange.test.AdminUserManagementTest.testOpenAddUserForm" finished-at="2017-06-09T20:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFillInUserForm -->
+        <test-method status="PASS" signature="testUserDeletionFromList()[pri:0, instance:com.orange.test.AdminUserManagementTest@44ed0a8f]" name="testUserDeletionFromList" duration-ms="15961" started-at="2017-06-09T20:38:56Z" depends-on-methods="com.orange.test.AdminUserManagementTest.testFillInUserForm" finished-at="2017-06-09T20:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDeletionFromList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orange.test.AdminUserManagementTest@44ed0a8f]" name="tearDown" is-config="true" duration-ms="3910" started-at="2017-06-09T20:39:12Z" finished-at="2017-06-09T20:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orange.test.AdminUserManagementTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

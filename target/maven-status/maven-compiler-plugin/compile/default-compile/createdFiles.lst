@@ -1,0 +1,14 @@
+com\orange\app\DashboardPage.class
+com\qagroup\tools\AbstractPage.class
+com\orange\app\OrangeHRM.class
+com\qagroup\tools\App.class
+com\orange\app\AdminUsersPage.class
+com\orange\data\User.class
+com\orange\data\UserData.class
+com\orange\data\NewUserData.class
+com\orange\app\LoginPage.class
+com\orange\data\NewUser.class
+com\orange\app\AddUserForm.class
+com\qagroup\tools\AppTest.class
+com\qagroup\tools\Browser.class
+com\qagroup\tools\Reporter.class

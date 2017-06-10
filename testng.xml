@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" parallel="tests" thread-count="5"
+	group-by-instances="true">
+
+	<test name="UI tests: Authentication">
+		<classes>
+			<class name="com.orange.test.LoginTest"></class>
+			<class name="com.orange.test.AdminUserManagementTest"></class>
+		</classes>
+	</test>
+
+</suite>

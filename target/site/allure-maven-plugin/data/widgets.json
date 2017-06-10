@@ -1,0 +1,64 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 7,
+        "passed" : 7,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1497030459035,
+        "stop" : 1497030511071,
+        "duration" : 52036
+      }
+    },
+    "defects" : {
+      "totalCount" : 0,
+      "items" : [ ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "aecb836195c9d564",
+        "title" : "Smoke : UI tests: Authentication",
+        "statistic" : {
+          "total" : 7,
+          "passed" : 7,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "title" : "Login into system",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "title" : "User management by admin",
+        "statistic" : {
+          "total" : 4,
+          "passed" : 4,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

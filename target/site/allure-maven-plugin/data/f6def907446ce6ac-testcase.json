@@ -1,0 +1,182 @@
+{
+  "uid" : "f6def907446ce6ac",
+  "name" : "testUserIsAbleToLogin[User [username=fiona.grace, password=fiona.grace, name=Fiona]]",
+  "title" : "Test user is able to login [User [username=fiona.grace, password=fiona.grace, name=Fiona]]",
+  "time" : {
+    "start" : 1497030467466,
+    "stop" : 1497030472387,
+    "duration" : 4921
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "aecb836195c9d564",
+    "name" : "Smoke : UI tests: Authentication",
+    "title" : "Smoke : UI tests: Authentication"
+  },
+  "steps" : [ {
+    "name" : "close",
+    "title" : "Close Browser",
+    "time" : {
+      "start" : 1497030466592,
+      "stop" : 1497030467465,
+      "duration" : 873
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "openLoginPage",
+    "title" : "Open Home Page by URL: http://opensource.demo.orangehrmlive.com//",
+    "time" : {
+      "start" : 1497030467468,
+      "stop" : 1497030470759,
+      "duration" : 3291
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "loginAs[User [username=fiona.grace, password=fiona.grace, name=Fiona]]",
+    "title" : "Login as <User [username=fiona.grace, password=fiona.grace, name=Fiona]>",
+    "time" : {
+      "start" : 1497030470761,
+      "stop" : 1497030472157,
+      "duration" : 1396
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 3
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillUsernameField[fiona.grace]",
+      "title" : "Fill Username Field with value <fiona.grace>",
+      "time" : {
+        "start" : 1497030470762,
+        "stop" : 1497030470873,
+        "duration" : 111
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillPasswordField[fiona.grace]",
+      "title" : "Fill Password Field with value <fiona.grace>",
+      "time" : {
+        "start" : 1497030470873,
+        "stop" : 1497030470947,
+        "duration" : 74
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "clickLoginButton",
+      "title" : "Click login button",
+      "time" : {
+        "start" : 1497030470947,
+        "stop" : 1497030472157,
+        "duration" : 1210
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "getGreetingMessage",
+    "title" : "Read Greeting message",
+    "time" : {
+      "start" : 1497030472158,
+      "stop" : 1497030472224,
+      "duration" : 66
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Message",
+      "source" : "70c42f57-ec1f-49b9-bf85-be56e535a35a-attachment.txt",
+      "type" : "text/plain",
+      "size" : 13,
+      "uid" : "110e248b60deb1cd"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "0ca691f6-4fce-4cae-a781-b0335bcfd1ae-attachment.png",
+    "type" : "image/png",
+    "size" : 47470,
+    "uid" : "8c5de1980ff2f648"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login into system"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Smoke : UI tests: Authentication"
+  }, {
+    "name" : "testGroup",
+    "value" : "UI tests: Authentication"
+  }, {
+    "name" : "story",
+    "value" : "Login as different types of users "
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testClass",
+    "value" : "com.orange.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "ONagirna"
+  }, {
+    "name" : "testSuite",
+    "value" : "Smoke"
+  }, {
+    "name" : "suite-title",
+    "value" : "Smoke : UI tests: Authentication"
+  }, {
+    "name" : "thread",
+    "value" : "16260@ONagirna.TestNG(14)"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUserIsAbleToLogin"
+  } ],
+  "parameters" : [ ]
+}
