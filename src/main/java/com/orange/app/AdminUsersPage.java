@@ -10,6 +10,10 @@ import com.qagroup.tools.AbstractPage;
 import ru.yandex.qatools.allure.annotations.Step;
 import static com.orange.data.NewUserData.NEW_ORDINARYUSER;
 
+import java.util.List;
+import java.util.stream.Collectors;
+import static java.util.stream.Collectors.*;
+
 public class AdminUsersPage extends AbstractPage {
 
 	private WebElement btnAdd;
@@ -24,6 +28,9 @@ public class AdminUsersPage extends AbstractPage {
 
 	@FindBy(css = ".odd input")
 	private WebElement checkbox;
+
+	@FindBy(css = ".odd>td.left>a,.even>td.left>a")
+	private List<WebElement> usernames;
 
 	public AdminUsersPage(WebDriver driver) {
 		super(driver);
@@ -117,6 +124,11 @@ public class AdminUsersPage extends AbstractPage {
 		} catch (NoSuchElementException e) {
 			return true;
 		}
+	}
+
+	@Step("Read all usernames")
+	public List<String> userList() {
+		return usernames.stream().map(WebElement::getText).collect(toList());
 	}
 
 }

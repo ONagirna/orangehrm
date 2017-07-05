@@ -3,17 +3,17 @@
   "plugins" : {
     "total" : {
       "statistic" : {
-        "total" : 7,
-        "passed" : 7,
+        "total" : 4,
+        "passed" : 4,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       },
       "time" : {
-        "start" : 1497030459035,
-        "stop" : 1497030511071,
-        "duration" : 52036
+        "start" : 1497085018675,
+        "stop" : 1497085050780,
+        "duration" : 32105
       }
     },
     "defects" : {
@@ -23,11 +23,11 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "aecb836195c9d564",
-        "title" : "Smoke : UI tests: Authentication",
+        "uid" : "3327601319084943",
+        "title" : "Surefire suite : Surefire test",
         "statistic" : {
-          "total" : 7,
-          "passed" : 7,
+          "total" : 4,
+          "passed" : 4,
           "pending" : 0,
           "canceled" : 0,
           "failed" : 0,
@@ -36,18 +36,8 @@
       } ]
     },
     "behaviors" : {
-      "totalCount" : 2,
+      "totalCount" : 1,
       "items" : [ {
-        "title" : "Login into system",
-        "statistic" : {
-          "total" : 3,
-          "passed" : 3,
-          "pending" : 0,
-          "canceled" : 0,
-          "failed" : 0,
-          "broken" : 0
-        }
-      }, {
         "title" : "User management by admin",
         "statistic" : {
           "total" : 4,

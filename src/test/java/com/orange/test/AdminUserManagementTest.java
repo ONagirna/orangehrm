@@ -41,8 +41,12 @@ public class AdminUserManagementTest extends AbstractTest {
 	}
 
 	@Test(dependsOnMethods = "testOpenAddUserForm")
-	public void testFillInUserForm() {
+	public void testFillInUserForm() throws InterruptedException {
 		onAddUserForm.addNewOrdinaryUser(NEW_ORDINARYUSER);
+
+		Thread.sleep(3000);
+		assertTrue(onAdminUsersPage.userList().contains(NEW_ORDINARYUSER.getNewUserName()),
+				"List of usernames does not contain created user username");
 
 		assertTrue(onAdminUsersPage.isUsersTableDisplayed(), "User is not navigated to the admin users table");
 	}
@@ -51,14 +55,16 @@ public class AdminUserManagementTest extends AbstractTest {
 	public void testUserDeletionFromList() {
 		onAdminUsersPage.deleteUserFromList().confirmUserDeletion();
 		onAdminUsersPage.findNewUserInTable();
-		
+
+		assertFalse(onAdminUsersPage.userList().contains(NEW_ORDINARYUSER.getNewUserName()),
+				"List of usernames contains deleted user username");
 		assertTrue(onAdminUsersPage.verifyUserWasDeleted(), "User was not deleted from the table");
 
 	}
 
 	@AfterClass(alwaysRun = true)
 	public void tearDown() {
-		
+
 		orangeHrm.close();
 	}
 

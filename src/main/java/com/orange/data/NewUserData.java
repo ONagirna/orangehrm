@@ -3,15 +3,15 @@ package com.orange.data;
 import com.github.javafaker.Faker;
 
 public class NewUserData {
-	
-	public static final NewUser NEW_ADMINUSER = new NewUser ("Admin", "Will Smith", "will.smith", "Enabled", "will.smith", "will.smith");
 
-	
-	public static final NewUser NEW_ORDINARYUSER = new NewUser ("ESS", "John Smith", "johnyy.smiith", "Enabled", "johnsmith", "johnsmith");
-	
-	
+	public static final NewUser NEW_ADMINUSER = new NewUser("Admin", "Will Smith", "will.smith", "Enabled",
+			"will.smith", "will.smith");
+
+	public static final NewUser NEW_ORDINARYUSER = new NewUser("ESS", "John Smith", new Faker().name().username(),
+			"Enabled", "johnsmith", "johnsmith");
+
 	public static NewUser getNewFakeUser() {
-		
+
 		Faker faker = new Faker();
 		String firstName = faker.name().firstName();
 		String lastName = faker.name().lastName();
